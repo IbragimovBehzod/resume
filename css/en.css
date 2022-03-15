@@ -141,19 +141,30 @@ header {
 .recommendation {
     background: url(../images/pero.jpg);
     background-size: cover;
-    background-position: bottom right;
+    background-position: top right;
     background-repeat: no-repeat;
 }
+
 .recommendation_in {
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
+  padding: 15px 0 15px 15px;
   padding: 35px 0;
 }
 
 .recommendation p {
   margin: 0;
   padding: 10px 0;
+}
+/* 
+.recommendation {
+  margin: 50px 0;
+} */
+
+.my_recommendations {
+  background: rgba(255, 255, 255, 0.541);
+  /* border: 3px solid blue; */
 }
 
 
